@@ -1,0 +1,1 @@
+python3 train_ner.py --model dbmdz/bert-base-turkish-cased --dataset turkish-nlp-suite/turkish-wikiNER --text_column tokens --label_column tags --max_length 128 --epochs 10 --batch_size 128 --lr 3e-5 --seeds 42 43 44

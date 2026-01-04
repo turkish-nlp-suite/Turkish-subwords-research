@@ -1,0 +1,256 @@
+### bert-10K-books/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8011229646266143,
+    "eval_loss": 0.4545367658138275,
+    "eval_runtime": 27.3362,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 325.759,
+    "eval_steps_per_second": 2.561,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.45849565193478,
+    "train_runtime": 1599.8482,
+    "train_samples": 60411,
+    "train_samples_per_second": 113.281,
+    "train_steps_per_second": 0.885
+}
+### bert-10K-minimal/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8457046603032005,
+    "eval_loss": 0.3745121955871582,
+    "eval_runtime": 27.382,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 325.214,
+    "eval_steps_per_second": 2.556,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.3782378051240565,
+    "train_runtime": 1586.9763,
+    "train_samples": 60411,
+    "train_samples_per_second": 114.2,
+    "train_steps_per_second": 0.892
+}
+### bert-128K-alldata/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8546883773161146,
+    "eval_loss": 0.36362600326538086,
+    "eval_runtime": 13.8765,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 641.734,
+    "eval_steps_per_second": 5.045,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.34219079098459015,
+    "train_runtime": 803.242,
+    "train_samples": 60411,
+    "train_samples_per_second": 225.627,
+    "train_steps_per_second": 1.763
+}
+### bert-128K-books/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8467153284671532,
+    "eval_loss": 0.37778690457344055,
+    "eval_runtime": 13.8367,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 643.58,
+    "eval_steps_per_second": 5.059,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.3576278147724389,
+    "train_runtime": 803.0104,
+    "train_samples": 60411,
+    "train_samples_per_second": 225.692,
+    "train_steps_per_second": 1.763
+}
+### bert-128K-minimal/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8574957888826502,
+    "eval_loss": 0.3563884198665619,
+    "eval_runtime": 13.8083,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 644.904,
+    "eval_steps_per_second": 5.069,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.33120829910881777,
+    "train_runtime": 802.4141,
+    "train_samples": 60411,
+    "train_samples_per_second": 225.86,
+    "train_steps_per_second": 1.765
+}
+### bert-20K-alldata/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8407636159460977,
+    "eval_loss": 0.39706847071647644,
+    "eval_runtime": 27.4013,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 324.985,
+    "eval_steps_per_second": 2.555,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.3804969033278988,
+    "train_runtime": 1580.2978,
+    "train_samples": 60411,
+    "train_samples_per_second": 114.683,
+    "train_steps_per_second": 0.896
+}
+### bert-20K-books/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.849298147108366,
+    "eval_loss": 0.36643755435943604,
+    "eval_runtime": 25.0661,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 355.26,
+    "eval_steps_per_second": 2.793,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.342807376452085,
+    "train_runtime": 1568.8678,
+    "train_samples": 60411,
+    "train_samples_per_second": 115.518,
+    "train_steps_per_second": 0.903
+}
+### bert-20K-minimal/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8297585626052779,
+    "eval_loss": 0.41138845682144165,
+    "eval_runtime": 27.382,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 325.214,
+    "eval_steps_per_second": 2.556,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.4022581456071239,
+    "train_runtime": 1598.2364,
+    "train_samples": 60411,
+    "train_samples_per_second": 113.396,
+    "train_steps_per_second": 0.886
+}
+### bert-2K-minimal/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8362717574396407,
+    "eval_loss": 0.3916143774986267,
+    "eval_runtime": 27.2271,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 327.063,
+    "eval_steps_per_second": 2.571,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.39546519349523857,
+    "train_runtime": 1578.3743,
+    "train_samples": 60411,
+    "train_samples_per_second": 114.823,
+    "train_steps_per_second": 0.897
+}
+### bert-32K-alldata/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8470522178551375,
+    "eval_loss": 0.36595430970191956,
+    "eval_runtime": 26.2151,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 339.69,
+    "eval_steps_per_second": 2.67,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.36091133699578754,
+    "train_runtime": 1528.0039,
+    "train_samples": 60411,
+    "train_samples_per_second": 118.608,
+    "train_steps_per_second": 0.927
+}
+### bert-32K-books/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8444693992139247,
+    "eval_loss": 0.3733474016189575,
+    "eval_runtime": 27.0315,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 329.431,
+    "eval_steps_per_second": 2.59,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.37152414268019507,
+    "train_runtime": 1546.9124,
+    "train_samples": 60411,
+    "train_samples_per_second": 117.158,
+    "train_steps_per_second": 0.915
+}
+### bert-32K-minimal/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8450308815272319,
+    "eval_loss": 0.375323623418808,
+    "eval_runtime": 27.1213,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 328.339,
+    "eval_steps_per_second": 2.581,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.3891315244685459,
+    "train_runtime": 1553.6132,
+    "train_samples": 60411,
+    "train_samples_per_second": 116.653,
+    "train_steps_per_second": 0.911
+}
+### bert-52K-alldata/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8567097136440203,
+    "eval_loss": 0.35955098271369934,
+    "eval_runtime": 13.7846,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 646.011,
+    "eval_steps_per_second": 5.078,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.33714996488754356,
+    "train_runtime": 794.3837,
+    "train_samples": 60411,
+    "train_samples_per_second": 228.143,
+    "train_steps_per_second": 1.783
+}
+### bert-52K-books/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8497473329590118,
+    "eval_loss": 0.35853058099746704,
+    "eval_runtime": 13.84,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 643.425,
+    "eval_steps_per_second": 5.058,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.3479448684864799,
+    "train_runtime": 795.2864,
+    "train_samples": 60411,
+    "train_samples_per_second": 227.884,
+    "train_steps_per_second": 1.78
+}
+### bert-52K-minimal/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8537900056148231,
+    "eval_loss": 0.35905739665031433,
+    "eval_runtime": 13.8178,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 644.458,
+    "eval_steps_per_second": 5.066,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.34391717856886694,
+    "train_runtime": 1090.724,
+    "train_samples": 60411,
+    "train_samples_per_second": 166.158,
+    "train_steps_per_second": 1.298
+}
+### bert-5K-minimal/sst2/all_results.json
+{
+    "epoch": 3.0,
+    "eval_accuracy": 0.8282987085906794,
+    "eval_loss": 0.39908820390701294,
+    "eval_runtime": 27.2885,
+    "eval_samples": 8905,
+    "eval_samples_per_second": 326.328,
+    "eval_steps_per_second": 2.565,
+    "total_flos": 1.192110147401472e+16,
+    "train_loss": 0.4146550065380032,
+    "train_runtime": 1560.633,
+    "train_samples": 60411,
+    "train_samples_per_second": 116.128,
+    "train_steps_per_second": 0.907
+}

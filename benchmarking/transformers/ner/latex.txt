@@ -1,0 +1,10 @@
+{
+  "mean_f1": 0.7717249517237227,
+  "std_f1": 0.015500258185827112,
+  "seeds": [
+    42,
+    43,
+    44
+  ]
+}
+LaTeX row: dbmdz/bert-base-turkish-cased & 0.77 $\pm$ 0.02 \\
