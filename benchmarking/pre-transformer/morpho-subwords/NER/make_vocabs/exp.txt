@@ -1,0 +1,2 @@
+Type coverage: fraction of unique words (types) that are fully reconstructable from the top‑K subword vocab.
+Token coverage: fraction of word tokens (frequency‑weighted) that are fully reconstructable from the top‑K subword vocab.

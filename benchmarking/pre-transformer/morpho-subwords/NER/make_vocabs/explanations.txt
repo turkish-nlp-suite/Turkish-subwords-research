@@ -1,0 +1,41 @@
+What each column means
+
+k: size of the subword vocabulary taken from train (top-K most frequent subwords).
+token_coverage: fraction of word tokens in the eval split whose words are fully reconstructable from those top-K subwords (frequency-weighted).
+type_coverage: fraction of unique words (types) in the eval split that are fully reconstructable from those top-K subwords (unweighted).
+“Fully reconstructable” means every subword for the word appears in the top-K list.
+
+How to interpret your numbers
+
+Early K covers frequent but few word types:
+K=50 → token_coverage=0.1998 vs type_coverage=0.0015
+Only 0.15% of distinct words are fully covered, but those words account for ~20% of all tokens (they’re common words).
+Coverage rises smoothly as K grows:
+By K≈5k, you cover ~66.7% of unique words and ~81.2% of tokens.
+By K≈8.4k, ~79.5% of types and ~85.0% of tokens are covered.
+Long tail effect:
+You need a lot more subwords to mop up rare words. From K=8369 to 15849, type coverage jumps from 79.5% → 96.2%, while token coverage only moves from 85.0% → 88.3% because many newly covered words are rare.
+At K=17820, type_coverage=1.0:
+Every unique eval word can be reconstructed from the subwords in the top-K set.
+token_coverage=0.8896 indicates not all word tokens were counted as covered in the weighted metric. Under the strict “all subwords present” rule, once type coverage is 1.0 for the evaluated words, token coverage should also be 1.0 if the token metric is computed over exactly the same word set with proper counts.
+Reasons token_coverage < 1.0 at K=17820:
+The eval word counts file is missing counts for some words present in the wcache, so their tokens aren’t contributing to the numerator even though the words are covered.
+The token coverage denominator includes tokens for words not present in wcache (e.g., filtered out or casing/normalization differences), so some tokens are “uncoverable” by definition.
+There’s a mismatch between how token coverage is computed (e.g., using subword-token weighting instead of word-token weighting).
+K=17820 may be less than total train subwords, but since type=1.0, it means that for all words in wcache, all their subwords happened to be within that K. The token shortfall then must come from the counts side, not coverage logic.
+Practical takeaways
+
+Pick K based on your target metric:
+If you care about real usage, target a token_coverage like 0.85–0.90. From your table, K≈8k–16k hits that range.
+If you need near-complete dictionary coverage (types), you’ll need K≈16k–18k.
+If you expect token_coverage to be 1.0 at K=17820, verify:
+The eval word counts file aligns 1:1 with wcache words (same normalization).
+There are no missing words or zero-count lines.
+You passed the word counts path when running coverage; otherwise token_coverage should equal type_coverage everywhere.
+
+
+
+=====
+
+
+
