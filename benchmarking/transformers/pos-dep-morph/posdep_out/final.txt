@@ -1,0 +1,14 @@
+{
+  "pos_acc_mean": 0.9262665243451843,
+  "pos_acc_std": 0.0,
+  "uas_mean": 0.8151191454396056,
+  "uas_std": 0.0,
+  "las_mean": 0.7458504519309778,
+  "las_std": 0.0,
+  "morph_micro_acc_mean": 0.3076059884500643,
+  "morph_micro_acc_std": 0.0,
+  "seeds": [
+    42
+  ]
+}
+LaTeX row: dbmdz/bert-base-turkish-cased & 0.93±0.00 & 0.82±0.00 & 0.75±0.00 & 0.31±0.00
