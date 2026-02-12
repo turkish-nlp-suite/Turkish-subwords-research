@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-set -u  # keep undefined-vars safety; do NOT use -e
-# Do not set -o pipefail if you want to ignore failures; it’s harmless here but not needed.
+set -u  # keep undefined-vars safety
 
 log_fail() {
   echo "[FAIL] $*" >&2
@@ -21,7 +20,7 @@ for vocab in 2 5 10 20 32 52 128; do
 	    --epochs 10 \
             --batch_size 128 \
             --lr 3e-5 \
-	    --seeds 42  \
+	    --seeds 42 43 44  \
 	    --output_dir ${outdir} \
 
   done
