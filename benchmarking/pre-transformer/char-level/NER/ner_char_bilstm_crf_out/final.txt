@@ -1,8 +1,0 @@
-{
-  "mean_f1": 0.6992222112828591,
-  "std_f1": 0.0,
-  "seeds": [
-    42
-  ]
-}
-LaTeX row: CharBiLSTM-CRF & 0.70 ± 0.00

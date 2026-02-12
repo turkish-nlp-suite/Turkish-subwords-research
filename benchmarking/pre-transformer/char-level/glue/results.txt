@@ -1,5 +1,0 @@
-cola: {'best': np.float64(0.07911652795922926), 'epoch': 4}
-sst2: {'best': 0.8428972487366648, 'epoch': 5}
-mnli: {'best': 0.6708695652173913, 'epoch': 5}
-mrpc: {'best': 0.621, 'epoch': 1}
-stsb: {'best': np.float64(0.11805053567189776), 'epoch': 5}
