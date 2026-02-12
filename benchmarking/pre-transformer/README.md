@@ -1,0 +1,1 @@
+This directory runs experiments for character-level, word-level, morpho-subwords vocab types. For the character-level you can run the experiments directly. For word level and subword evel first one needs to prepare vocabulary files, please see the related subdirs.
