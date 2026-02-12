@@ -1,4 +1,4 @@
-# Running benchmarking on BERT models
+# Running benchmarking on BERT models on TrGLUE dataset
 
 This folder has 3 scripts, the main script includes TrGLUE running is `run.py`. This script will pull TrGLUE datasets from [TrGLUE HF repo](https://huggingface.co/datasets/turkish-nlp-suite/TrGLUE).
 
