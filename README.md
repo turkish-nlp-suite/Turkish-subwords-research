@@ -8,6 +8,7 @@ The code somes in 2 parts, calculation of morphological statistics for the token
 
 
 ### Morpho stats
+This directory contains all the code to reproduce the morphological statistics in the paper. The code comes in subdirectories containin  code for computing the average subwords per tokenizer + per corpus, fertility and single token rate computations per tokenizer and more. Please navigate to `morpho-stats` folder for more.
 
 ### Benchmarking
 Vocab types, hence the models are covered in 2 parts as well, pre-Tranformer era and Transformer era - WordPiece tokenizers. In the pre-Transformer era you'll see benchmarking code for character-level, word-level and subword-level vocabularies and models. 
