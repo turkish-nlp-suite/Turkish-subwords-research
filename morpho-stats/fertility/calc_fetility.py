@@ -109,7 +109,7 @@ def evaluate_tokenizer_family(collection_name):
       os.mkdir(eval_dir)
     except:
       pass
-    tokenizer_dir  =  tokenizer_basedir + "/" +  name.format(size)
+    tokenizer_dir  =  tokenizer_basedir + "/" +  name.format(size, collection_name)
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_dir)
     print(size, " started!")
     evaluate_tokenizer(tokenizer, eval_dir)
