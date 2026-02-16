@@ -29,7 +29,7 @@ All the tokenizers and BERT models can be found on the project [HF repo](https:/
 ## Blog post
 
 ## Research paper and citation
-Preprint is available at [Arxiv]i(https://arxiv.org/abs/2602.06942). 
+Preprint is available at [Arxiv](https://arxiv.org/abs/2602.06942). 
 
 Cite the preprint:
 
